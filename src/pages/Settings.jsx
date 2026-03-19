@@ -1,5 +1,5 @@
 import './Settings.css'
-import exampleProfile from './assets/example-profile.svg'
+import exampleProfile from '../assets/example-profile.svg'
 function Settings() {
 
   return (

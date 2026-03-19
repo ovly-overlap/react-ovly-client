@@ -1,10 +1,10 @@
 import React from "react";
 import './Nav.css'
-import logo from './assets/Logo-image.svg'
-import homeIcon from './assets/home-icon.svg'
-import timeLineIcon from './assets/timeline-icon.svg'
-import profileIcon from './assets/profile-icon.svg'
-import settingsIconChecked from './assets/settings-icon.svg'
+import logo from '../assets/Logo-image.svg'
+import homeIcon from '../assets/home-icon.svg'
+import timeLineIcon from '../assets/timeline-icon.svg'
+import profileIcon from '../assets/profile-icon.svg'
+import settingsIconChecked from '../assets/settings-icon.svg'
 
 function Nav(){
     const Home = () =>{
