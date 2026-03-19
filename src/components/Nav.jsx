@@ -17,17 +17,19 @@ function Nav(){
     }
     return (
     <>
-    <nav>
-        <div className="ovly-logo">
-            <img src={logo} alt="logo"/><span>ovly</span>
-        </div>
-        <div className="nav-button">
-            <button onClick={Home}><img src={homeIcon}/>홈</button>
-            <button onClick={TimeLine} className="timeline"><img src={timeLineIcon}/>ovly</button>
-            <button onClick={Profile}><img src={profileIcon}/>프로필</button>
-            <button onClick={Settings}><img src={settingsIconChecked}/>설정</button>
-        </div>
-    </nav>
+    <div className="nav-container">
+        <nav>
+            <div className="ovly-logo">
+                <img src={logo} alt="logo"/><span>ovly</span>
+            </div>
+            <div className="nav-button">
+                <button onClick={Home}><img src={homeIcon}/>홈</button>
+                <button onClick={TimeLine} className="timeline"><img src={timeLineIcon}/>ovly</button>
+                <button onClick={Profile}><img src={profileIcon}/>프로필</button>
+                <button onClick={Settings}><img src={settingsIconChecked}/>설정</button>
+            </div>
+        </nav>
+    </div>
     </>
     )
 }

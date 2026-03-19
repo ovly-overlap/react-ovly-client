@@ -26,8 +26,8 @@ body{
     background-color: var(--white);
     border-radius: 15px;
     border: 3px var(--outline-3) solid;
-    width: 1170px;
-    height: 400px;
+    width: 95%;
+    height: 500px;
     
 }
 .profile-content{
@@ -44,8 +44,8 @@ body{
 .input{
     border-width: 1.8px;
     border-radius: 9px;
-    height: 40px;
-    width: 500px;
+    height: 50px;
+    width: 100%;
     border-style:solid;
     border-color: var(--gray-2);
     
@@ -55,6 +55,7 @@ body{
     padding-left: 40px;
     display: flex;
     flex-direction: column;
+    width: 85%;
 
 }
 .sub-title{
@@ -76,6 +77,11 @@ body{
 #file{
     display: none;
 }
+.save-btn{
+    margin-left: auto;
+    margin-top: 30px;
+    width: 25%;
+}
 .save-btn button{
     font-weight: 700;
     font-size: 20px;
@@ -83,11 +89,9 @@ body{
     color:var(--white);
     border: none;
     border-radius: 15px;
-    width: 200px;
+    width: 100%;
     height: 50px;
-}
-.save-btn{
-    padding-top: 40px;
+    cursor: pointer;
 }
 input{
     padding-left: 20px;
@@ -100,10 +104,10 @@ textarea{
 
 }
 .introduce .sub-title{
-    margin-top: 15px;
+    margin-top: 39px;
 }
 .introduce textarea{
-    height: 90px;
+    height: 100px;
 }
 .warning{
     font-size: 16px;
@@ -113,4 +117,22 @@ textarea{
 textarea::placeholder {
  	color: var(--gray-2);
     font-size: 16px;
+}
+.screen-theme{
+    margin:20px 0px 0px 40px;
+    display: flex;
+    gap: 30px;
+}
+.screen-theme div{
+    font-size: 16px;
+}
+.radio-btn{
+    display: flex;
+}
+.radio-btn input[type="radio"]{
+    width: 20px;
+}
+.radio-btn p{
+    margin:0px 0px 0px 10px;
+    font-size: 24px;
 }

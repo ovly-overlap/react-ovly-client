@@ -20,7 +20,7 @@ function Settings() {
                 <div>
                     <p className='sub-title'>아이디</p>
                     <input type="text" className='input'/>
-                    <p className='warning'>중복된 아이디입니다!</p>
+                    {/* <p className='warning'>중복된 아이디입니다!</p> */}
                 </div>
                 <div className='introduce'>
                     <p className='sub-title'>자기 소개</p>
@@ -32,8 +32,15 @@ function Settings() {
               </div>
           </div> 
         </div>
-      </div>
 
+        <div className='screen-theme-card'>
+          <p className='title'>화면 테마</p>
+          <form className='screen-theme'>
+            <div className='radio-btn'><input type='radio' name='mode' value='light'/><p>light</p></div>
+            <div className='radio-btn'><input type='radio' name='mode' value='dark'/><p>dark</p></div>
+          </form>
+          </div>
+      </div>
     </>
   )
 }
